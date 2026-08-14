@@ -1,0 +1,71 @@
+Exit code: 0
+Wall time: 0.4 seconds
+Output:
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="오늘을 더 맛있게, 잇도넛" />
+  <title>잇도넛 — Eat the happy!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="notice">잇도넛에 처음 오셨나요? 지금 가입하면 <b>3,000원 쿠폰</b>을 드려요! <button aria-label="알림 닫기">×</button></div>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="잇도넛 홈"><span>eat</span>donut<i>●</i></a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#menu">MENU</a><a href="#story">OUR STORY</a><a href="#store">STORE</a><a href="#news">NEWS</a>
+    </nav>
+    <div class="actions">
+      <button class="icon-btn" aria-label="검색" data-open-search>⌕</button>
+      <button class="icon-btn" aria-label="장바구니">♡<em>0</em></button>
+      <a class="order-btn" href="#menu">PICK-UP ORDER <span>→</span></a>
+      <button class="menu-btn" aria-label="메뉴 열기"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img src="assets/donut-hero.png" alt="딸기, 초콜릿, 피스타치오, 크림 도넛" />
+      <div class="hero-copy reveal">
+        <p class="eyebrow">FRESHLY MADE, EVERY DAY</p>
+        <h1>오늘을 한 입에<br><span>더 맛있게!</span></h1>
+        <p>매일 아침 정성껏 구운 폭신한 도넛과<br>기분 좋은 달콤함을 만나보세요.</p>
+        <a href="#menu" class="round-link">메뉴 보러가기 <b>↗</b></a>
+      </div>
+      <div class="scroll">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-head reveal"><div><p class="eyebrow">OUR FAVORITES</p><h2>오늘, 어떤 도넛?</h2></div><a href="#">전체 메뉴 <span>→</span></a></div>
+      <div class="filters reveal" role="tablist"><button class="active" data-filter="all">ALL</button><button data-filter="cream">CREAM</button><button data-filter="glaze">GLAZE</button><button data-filter="cake">CAKE</button></div>
+      <div class="products">
+        <article class="product reveal" data-category="cream"><div class="product-art pink"><span>NEW</span><i class="donut filled strawberry"></i></div><h3>딸기 우유 크림 도넛</h3><p>상큼한 딸기와 부드러운 우유 크림</p><strong>4,500원</strong><button aria-label="장바구니 담기">＋</button></article>
+        <article class="product reveal" data-category="cream"><div class="product-art yellow"><span>BEST</span><i class="donut filled vanilla"></i></div><h3>클래식 바닐라 도넛</h3><p>마다가스카르 바닐라빈 커스터드</p><strong>3,900원</strong><button aria-label="장바구니 담기">＋</button></article>
+        <article class="product reveal" data-category="glaze"><div class="product-art mint"><i class="donut ring pistachio"></i></div><h3>피스타치오 글레이즈</h3><p>고소하고 진한 피스타치오 글레이즈</p><strong>4,200원</strong><button aria-label="장바구니 담기">＋</button></article>
+        <article class="product reveal" data-category="glaze"><div class="product-art lavender"><i class="donut ring chocolate"></i></div><h3>딥 초콜릿 크런치</h3><p>진한 카카오와 바삭한 초코 크런치</p><strong>4,300원</strong><button aria-label="장바구니 담기">＋</button></article>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-art reveal"><div class="sun"></div><div class="box"><b>eat<br>donut</b><span>GOOD MOOD<br>IN THE BOX</span></div><div class="mini-donut"></div></div>
+      <div class="story-copy reveal"><p class="eyebrow">OUR SWEET STORY</p><h2>행복은 생각보다<br>가까이에 있어요.</h2><p>좋은 재료, 충분한 발효, 그리고 만드는 사람의 즐거움.<br>잇도넛은 평범한 하루에 작은 설렘을 더합니다.</p><a href="#">잇도넛 이야기 <span>→</span></a></div>
+    </section>
+
+    <section class="pickup section" id="store"><p class="eyebrow">EASY & SWEET</p><h2>기다림 없이, 달콤하게.</h2><p>가까운 매장을 선택하고 원하는 시간에 픽업하세요.</p><a href="#">픽업 주문하기 <span>→</span></a><div class="marquee"><div>EAT HAPPY · DONUT WORRY · EAT HAPPY · DONUT WORRY ·&nbsp;</div><div>EAT HAPPY · DONUT WORRY · EAT HAPPY · DONUT WORRY ·&nbsp;</div></div></section>
+
+    <section class="news section" id="news"><div class="section-head reveal"><div><p class="eyebrow">SWEET NEWS</p><h2>잇도넛 소식</h2></div><a href="#">모두 보기 <span>→</span></a></div><div class="news-grid"><article class="reveal"><div class="news-img berry"><b>Berry<br>Happy!</b></div><small>EVENT · 2026.08.01</small><h3>여름 한정, 베리 해피 컬렉션</h3></article><article class="reveal"><div class="news-img shop"><b>HELLO,<br>SEONGSU</b></div><small>STORE · 2026.07.22</small><h3>잇도넛 성수점이 문을 열었어요</h3></article><article class="reveal"><div class="news-img friends"><b>DONUT<br>FRIENDS</b></div><small>COLLAB · 2026.07.10</small><h3>잇도넛 프렌즈 굿즈 출시</h3></article></div></section>
+  </main>
+
+  <footer><div class="footer-logo"><span>eat</span>donut<i>●</i></div><div><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">고객센터</a><p>주식회사 잇도넛 · 서울특별시 성동구 달콤로 12<br>© 2026 EATDONUT. ALL RIGHTS RESERVED.</p></div><div class="social"><a href="#">Instagram ↗</a><a href="#">Kakao ↗</a></div></footer>
+
+  <div class="search-modal" aria-hidden="true"><button data-close-search>×</button><form><label for="search">무엇을 찾으세요?</label><div><input id="search" type="search" placeholder="메뉴 또는 매장 검색"><button>검색</button></div></form></div>
+  <div class="toast" role="status">장바구니에 담았어요 🍩</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
