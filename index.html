@@ -18,7 +18,7 @@ Output:
   <header class="header">
     <a class="logo" href="#top" aria-label="잇도넛 홈"><span>eat</span>donut<i>●</i></a>
     <nav class="nav" aria-label="주요 메뉴">
-      <a href="#menu">MENU</a><a href="#story">OUR STORY</a><a href="#store">STORE</a><a href="#news">NEWS</a>
+      <a href="#menu">MENU</a><a href="#story">OUR STORY</a><a href="#store">STORE</a><a href="#news">NEWS</a><a href="#partnership">PARTNERSHIP</a>
     </nav>
     <div class="actions">
       <button class="icon-btn" aria-label="검색" data-open-search>⌕</button>
@@ -59,6 +59,24 @@ Output:
     <section class="pickup section" id="store"><p class="eyebrow">EASY & SWEET</p><h2>기다림 없이, 달콤하게.</h2><p>가까운 매장을 선택하고 원하는 시간에 픽업하세요.</p><a href="#">픽업 주문하기 <span>→</span></a><div class="marquee"><div>EAT HAPPY · DONUT WORRY · EAT HAPPY · DONUT WORRY ·&nbsp;</div><div>EAT HAPPY · DONUT WORRY · EAT HAPPY · DONUT WORRY ·&nbsp;</div></div></section>
 
     <section class="news section" id="news"><div class="section-head reveal"><div><p class="eyebrow">SWEET NEWS</p><h2>잇도넛 소식</h2></div><a href="#">모두 보기 <span>→</span></a></div><div class="news-grid"><article class="reveal"><div class="news-img berry"><b>Berry<br>Happy!</b></div><small>EVENT · 2026.08.01</small><h3>여름 한정, 베리 해피 컬렉션</h3></article><article class="reveal"><div class="news-img shop"><b>HELLO,<br>SEONGSU</b></div><small>STORE · 2026.07.22</small><h3>잇도넛 성수점이 문을 열었어요</h3></article><article class="reveal"><div class="news-img friends"><b>DONUT<br>FRIENDS</b></div><small>COLLAB · 2026.07.10</small><h3>잇도넛 프렌즈 굿즈 출시</h3></article></div></section>
+
+    <section class="partnership section" id="partnership">
+      <div class="partnership-intro reveal"><p class="eyebrow">LET'S MAKE SOMETHING SWEET</p><h2>잇도넛과 함께<br>달콤한 일을 만들어요.</h2><p>브랜드 협업, 단체 주문, 입점 및 기타 제휴 제안을 기다리고 있어요. 내용을 남겨주시면 담당자가 확인 후 영업일 기준 3일 이내 연락드릴게요.</p><div class="contact-note"><span>제휴 문의</span><a href="mailto:partner@eatdonut.kr">partner@eatdonut.kr ↗</a></div></div>
+      <form class="partner-form reveal" action="https://formspree.io/f/xjyborvg" method="POST" data-partner-form>
+        <input type="hidden" name="_subject" value="[잇도넛] 새로운 제휴 문의가 도착했습니다">
+        <div class="field full"><label for="partnership-type">제휴 유형 <b>*</b></label><select id="partnership-type" name="제휴 유형" required><option value="" selected disabled>제휴 유형을 선택해 주세요</option><option>브랜드 협업 / 콜라보</option><option>기업·단체 대량 주문</option><option>입점 / 유통 제안</option><option>행사 / 케이터링</option><option>마케팅 / 콘텐츠</option><option>기타 제안</option></select></div>
+        <div class="field"><label for="company">회사·단체명 <b>*</b></label><input id="company" name="회사·단체명" type="text" placeholder="잇컴퍼니" required></div>
+        <div class="field"><label for="manager">담당자명 <b>*</b></label><input id="manager" name="담당자명" type="text" placeholder="홍길동" required></div>
+        <div class="field"><label for="partner-email">이메일 <b>*</b></label><input id="partner-email" name="email" type="email" placeholder="hello@company.com" required></div>
+        <div class="field"><label for="phone">연락처 <b>*</b></label><input id="phone" name="연락처" type="tel" placeholder="010-0000-0000" required></div>
+        <div class="field"><label for="schedule">희망 일정</label><input id="schedule" name="희망 일정" type="text" placeholder="예: 2026년 10월 중"></div>
+        <div class="field"><label for="budget">예상 규모·예산</label><input id="budget" name="예상 규모 및 예산" type="text" placeholder="예: 500개 / 500만원"></div>
+        <div class="field full"><label for="proposal">제안 내용 <b>*</b></label><textarea id="proposal" name="제안 내용" rows="6" placeholder="제안 배경, 진행 방식, 기대 일정 등 자세한 내용을 적어주세요." required></textarea></div>
+        <div class="field full"><label for="link">참고 링크</label><input id="link" name="참고 링크" type="url" placeholder="https://"></div>
+        <label class="consent full"><input type="checkbox" name="개인정보 수집 동의" value="동의" required><span>제휴 문의 처리를 위한 개인정보 수집 및 이용에 동의합니다. <b>*</b></span></label>
+        <div class="form-footer full"><p class="form-status" aria-live="polite"></p><button type="submit">제휴 문의 보내기 <span>→</span></button></div>
+      </form>
+    </section>
   </main>
 
   <footer><div class="footer-logo"><span>eat</span>donut<i>●</i></div><div><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">고객센터</a><p>주식회사 잇도넛 · 서울특별시 성동구 달콤로 12<br>© 2026 EATDONUT. ALL RIGHTS RESERVED.</p></div><div class="social"><a href="#">Instagram ↗</a><a href="#">Kakao ↗</a></div></footer>
